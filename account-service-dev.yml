@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: account-service
+#  config:
+#    activate:
+#      on-profile:
+#        - dev
+server:
+  port: 8081
+message: Hola, este mensaje es desde Dev profile.
+
+messageDev: Hola, esta es la configuracion Developer

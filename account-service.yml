@@ -1,0 +1,54 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: account-service
+  cloud:
+    config:
+      enabled: false
+
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include:
+          - '*'
+  info:
+    env:
+      enabled: true
+
+message: Hola, esta es la configuracion por defecto de Vani
+
+other:
+  message: Hola, este es el otro mensaje
+
+#---
+#
+#spring:
+#  config:
+#    activate:
+#      on-profile:
+#        - dev
+#server:
+#  port: 8081
+#message: Hola, este mensaje es desde Dev profile.
+#
+#messageDev: Hola, esta es la configuracion Developer
+#
+#
+#---
+#
+#spring:
+#  config:
+#    activate:
+#      on-profile:
+#        - dev
+#server:
+#  port: 8082
+#message: Hola, este mensaje es desde Prod profile.
+#
+#messageDev: Hola, esta es la configuracion Produccion

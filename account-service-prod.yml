@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: account-service
+#  config:
+#    activate:
+#      on-profile:
+#        - prod
+server:
+  port: 8082
+
+message: Hola, este mensaje es desde Prod profile.
+
+messageDev: Hola, esta es la configuracion Produccion
