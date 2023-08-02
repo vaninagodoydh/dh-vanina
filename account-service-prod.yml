@@ -8,6 +8,6 @@ spring:
 server:
   port: 8082
 
-message: Hola, este mensaje es desde Prod profile.
+message: Hello from the other side
 
-messageDev: Hola, esta es la configuracion Produccion
+messageDev: Hello from the other side DEV message
